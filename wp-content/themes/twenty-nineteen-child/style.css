@@ -4,6 +4,25 @@ Template: twentynineteen
 Version: 1.0
 */
 header {
-  height: 75px; }
+  height: 75px;
+  position: relative; }
+  header .img-container {
+    padding: 0 .9375rem;
+    position: absolute;
+    z-index: 999999; }
+    header .img-container img {
+      width: 150px;
+      margin: 0; }
+
+.nav-item {
+  height: 100%; }
+  .nav-item:hover {
+    background-color: #CCCCCC; }
+  .nav-item .nav-link {
+    padding: 1rem 1rem;
+    color: #656565;
+    font-size: 18px; }
+    .nav-item .nav-link:hover {
+      color: #B82233; }
 
 /*# sourceMappingURL=style.css.map */

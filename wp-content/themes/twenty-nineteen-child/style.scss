@@ -7,4 +7,28 @@ Version: 1.0
 
 header {
   height: 75px;
+  position: relative;
+  .img-container {
+    padding: 0 .9375rem;
+    position: absolute;
+    z-index: 999999;
+    img {
+      width: 150px;
+      margin: 0;
+    }
+  }
+}
+.nav-item {
+  height: 100%;
+  &:hover {
+    background-color: #CCCCCC;
+  }
+  .nav-link {
+    padding: 1rem 1rem;
+    color: #656565;
+    font-size: 18px;
+    &:hover {
+      color: #B82233;
+    }
+  }
 }

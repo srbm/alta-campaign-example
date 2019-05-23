@@ -23,17 +23,22 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 		<header>
-      <div class="img-fluid">
-        <a href="">
+      <div class="img-container">
+        <a href="#">
           <img src="<?php bloginfo('template_directory');?>/images/Alta-Logo.webp" />
         </a>
       </div>
       <nav>
-        <?php wp_nav_menu( $args = array( 'theme_location' => 'header-menu',
-				'menu-class' => 'nav',
-			 	'container-class' => 'nav') ); ?>
+        <ul class="nav justify-content-end">
+					<li class="nav-item"><a class="nav-link" href="#">Alta</a></li>
+					<li class="nav-item"><a class="nav-link" href=/projects>Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="/global-operations">Global Opertaions</a></li>
+					<li class="nav-item"><a class="nav-link" href="innovation-lab">Innovation Lab</a></li>
+					<li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
+					<li class="nav-item"><a class="nav-link" href="contact-us">Contact Us</a></li>
+        </ul>
       </nav>
-
-		</header><!-- #masthead -->
+		</header>
 
 	<div id="content" class="site-content">
