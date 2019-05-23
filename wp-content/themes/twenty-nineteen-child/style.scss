@@ -62,5 +62,12 @@ header {
 
 .survey {
   padding: 7em;
-  color: #B82233; 
+  background-color: #4DC7E0;
+  color: white;
+  .frm_style_formidable-style.with_frm_style .frm_primary_label {
+    color: white;
+  }
+  .frm_style_formidable-style.with_frm_style .frm_error {
+    color:  #B82233;
+  }
 }
