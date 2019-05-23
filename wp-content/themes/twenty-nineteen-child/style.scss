@@ -18,6 +18,9 @@ header {
     }
   }
 }
+.nav {
+  height: 75px;
+}
 .nav-item {
   height: 100%;
   &:hover {
@@ -30,5 +33,29 @@ header {
     &:hover {
       color: #B82233;
     }
+  }
+}
+
+.main {
+  background-image: url('http://shawnrbmeyer.local/alta-campaign-example/wp-content/uploads/2019/05/bikeAltablurr.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 6em 4em;
+  height: 80vh;
+  position: relative;
+  color: #CCCCCC;
+  h2 {
+    text-shadow: 0 0 10px  black;
+    color: white;
+    position: absolute;
+    bottom: 6em;
+  }
+  p {
+    text-shadow: 0 0 5px  black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 85vw;
   }
 }
