@@ -3,5 +3,7 @@ Theme Name: Twenty Nineteen Child SRBM
 Template: twentynineteen
 Version: 1.0
 */
+header {
+  height: 75px; }
 
 /*# sourceMappingURL=style.css.map */
